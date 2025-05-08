@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>文化传承</title>
+    <meta charset="utf-8" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      .image.fit {
+        margin-top: -5.5em;
+      }
+    </style>
+  </head>
+  <body class="subpage">
+    <header id="header">
+      <div class="logo">
+        <a href="index.html">华夏文化<span>传统之美</span></a>
+      </div>
+      <a href="#menu" class="toggle"><span>Menu</span></a>
+    </header>
+
+    <nav id="menu">
+      <ul class="links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="文化精髓.html">文化精髓</a></li>
+        <li><a href="四大发明.html">四大发明</a></li>
+        <li><a href="茶文化.html">茶文化</a></li>
+        <li><a href="丝绸之路.html">丝绸之路</a></li>
+        <li><a href="全屏登录界面.html">登录</a></li>
+      </ul>
+    </nav>
+
+    <section id="one" class="wrapper style2">
+      <div class="inner">
+        <div class="box">
+          <div class="image fit">
+            <img src="images/pic01.jpg" alt="" width="3472" height="1035" />
+          </div>
+          <div class="content">
+            <header class="align-center">
+              <h2>传统文化的精髓</h2>
+              <p>探索中华五千年文明的深邃智慧</p>
+            </header>
+            <hr />
+            <p>
+              中华传统文化是一个博大精深的文化体系，包含了儒家、道家、佛家等多种思想体系。它强调仁义礼智信的道德准则，
+              追求天人合一的处世哲学，以及重视家国情怀的价值观念。这些文化精髓在历史长河中不断积淀，形成了独特的东方智慧。
+            </p>
+            <p>
+              在现代社会中，传统文化依然发挥着重要作用。从书法、国画、戏曲、武术等艺术形式，到中医养生、节气饮食等生活智慧，
+              传统文化的影响无处不在。通过传承和创新，这些文化瑰宝不断焕发新的生机，为现代人提供精神指引和生活启迪。
+              让我们共同探索这些文化遗产，汲取其中的智慧精华，让传统文化在新时代绽放异彩。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Four -->
+    <section id="four" class="wrapper style3">
+      <div class="inner">
+        <header class="align-center">
+          <h2>文化传承 薪火相传</h2>
+          <p>
+            传统文化是民族的根脉，是我们安身立命的精神家园。通过对传统文化的学习和传承，
+            我们不仅能够了解先人的智慧，更能够在现代生活中找到精神寄托，获得前行的力量。
+            让我们共同努力，将这份文化瑰宝传承下去，让中华文明在世界文化之林中永远绽放光彩。
+          </p>
+        </header>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer" class="wrapper">
+      <div class="inner">
+        <section>
+          <div class="box">
+            <div class="content">
+              <h2 class="align-center">联系我们</h2>
+              <hr />
+              <form id="contactForm" onsubmit="return handleSubmit(event)">
+                <div class="field half first">
+                  <label for="name">姓名</label>
+                  <input name="name" id="name" type="text" placeholder="姓名" />
+                </div>
+                <div class="field half">
+                  <label for="email">邮箱</label>
+                  <input
+                    name="email"
+                    id="email"
+                    type="email"
+                    placeholder="邮箱"
+                  />
+                </div>
+                <div class="field">
+                  <label for="dept">部门</label>
+                  <div class="select-wrapper">
+                    <select name="dept" id="dept">
+                      <option value="">- 选择类别 -</option>
+                      <option value="1">文化研究</option>
+                      <option value="1">艺术传承</option>
+                      <option value="1">教育推广</option>
+                      <option value="1">活动策划</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="message">留言</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="6"
+                    placeholder="请输入留言内容"
+                  ></textarea>
+                </div>
+                <ul class="actions align-center">
+                  <li>
+                    <button
+                      type="button"
+                      class="button special"
+                      onclick="handleSubmit(event)"
+                    >
+                      发送消息
+                    </button>
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      function handleSubmit(event) {
+        alert("感谢您的留言！我们会尽快回复。");
+        document.getElementById("contactForm").reset();
+      }
+    </script>
+  </body>
+</html>
